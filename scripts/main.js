@@ -56,7 +56,7 @@ function loadXMLDoc() {
 }
 
 
-$(function) loadData() {
+/* $(function) loadData() {
 	$.ajax({
         type:'GET'/'POST',
         url:"https://www.boursorama.com/bourse/action/graph/ws/GetTicksEOD?symbol=MP-28371&length=3650&period=0&guid=.html",
@@ -66,4 +66,4 @@ $(function) loadData() {
             console.log(res);
         }
     })
-}
+} */
