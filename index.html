@@ -32,12 +32,10 @@
 	<script type ="text/javascript">
 		$.ajax({
 			type:'GET',
-			dataType:'JSONP',
+			dataType:'JSON',
 			url:"https://www.boursorama.com/bourse/action/graph/ws/GetTicksEOD?symbol=MP-28371&length=3650&period=0&guid=.html",
 			async:true,
-			success.function(data){
-				console.log(data);
-			}
+			success.function(data){console.log(data);}
 		});
 	</script>
   <!-- <button type="button" onclick="loadData()">请求数据</button> -->
